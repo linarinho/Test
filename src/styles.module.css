@@ -1,9 +1,63 @@
 /* add css module styles here (optional) */
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+.app {
+  /* margin-top: 2em; */
+  padding: 1em 4em;
+  font-size: 1.5em;
+  color: white;
+}
+
+.container_test {
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(141, 141, 240);
+}
+
+.test_header {
+  background-color: rgb(141, 141, 240);
+  padding: 5px 25px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.test_header span {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.test_body {
+  padding: 20px 25px;
+}
+
+.test_footer {
+  background-color: rgb(250, 244, 244);
+  text-align: end;
+  padding: 10px 0;
+}
+
+.is_required:after {
+  content: "*";
+  margin-left: 2px;
+  color: red;
+  font-weight: 500;
+  font-size: 12pt;
+}
+
+button {
+  padding: 10px 30px;
+  margin-right: 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+
+button.color_bleue {
+  background-color: rgb(141, 141, 240);
+}
+button.color_red {
+  background-color: red;
 }

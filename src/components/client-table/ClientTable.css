@@ -1,0 +1,33 @@
+.container_table {
+    border-radius: 5px;
+    background-color: lightgray;
+}
+
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: -15px;
+}
+
+th {
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px;
+    color: #000;
+}
+
+td {
+    padding: 8px;
+    /* background: #e8edff; */
+    border-bottom: 1px solid #fff;
+    color: #669;
+    border-top: 1px solid transparent;
+}
+
+/* tr:hover td {
+    background: #d0dafd;
+    color: #339;
+} */
